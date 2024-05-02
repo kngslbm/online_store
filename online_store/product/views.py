@@ -32,7 +32,7 @@ class BrandViewSet(viewsets.ViewSet):
 
 class ProductViewSet(viewsets.ViewSet):
     """
-    A simple Viewset for viewing all brands.
+    A simple Viewset for viewing all products.
     """
 
     queryset = Product.objects.all()
